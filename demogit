@@ -1,0 +1,36 @@
+**create a new repository on the command line**
+
+git init
+git config --global user.name "Varun Rahandale"
+git config --global user.email "varunrahangdale18@gmail.com"
+
+. code //to open the vs code 
+
+U->UnTracked(When create new file)
+A->Added/Staging
+M->Modified(Changes in Existing file)
+
+git status
+
+git add filename
+or
+git add ./*
+
+git commit -m "message"(limit is 50 words)
+
+There are three branches in our company:-
+development
+bugfix
+testing
+
+to create new branch
+git branch branchname
+
+to switch the created branch
+git checkout branchname
+
+to create and switch to new branch
+git checkout -b branchname
+
+
+git push main
